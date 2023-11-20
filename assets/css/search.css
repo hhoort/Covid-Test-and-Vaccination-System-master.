@@ -1,0 +1,39 @@
+/* Style for the search bar */
+#search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style for the search results */
+#search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Style for each hospital result */
+#search-results div {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+#search-results img {
+    max-width: 100%;
+    height: auto;
+}
+
+#search-results h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#search-results p {
+    font-size: 14px;
+    margin: 5px 0;
+}
